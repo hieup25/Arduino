@@ -1,0 +1,16 @@
+## Mô tả
+
+Tên: Tạo bảng quảng cáo với module 4 LED matrix
+Cần Có: 
+- Board Arduino (bất kỳ)
+- Module 4 LED matrix (có thể sử dụng loại LED khác, nhưng cần cấu hình lại trong code)
+- Module Bluetooth HC-05 hoặc HC-06.
+- Sử dụng 1 số app trên smartphone để kết nối với module Bluetooth gửi và nhận dữ liệu.
+Có thể tải các app trên cửa hàng ứng dụng với từ khóa "Bluetooth Arduino". Mình đang dùng app Custom Bluetooth Controller
+- Cài đặt thư viện (Mình sử dụng Arduino IDE): MD_MAX72xx và MD_Parola
+(Trong IDE -> Tools -> Manage Libraries -> Tìm tên thư viện -> install)
+
+## Thêm
+
+Thực tế nạp code là sẽ chạy được, nhưng để làm chủ được các bạn cần vọc qua thư viện hoặc googling để kiểm soát
+các hiệu ứng, 1 số cấu hình IC Max7219 hoặc tự tạo các cú pháp để điều khiển theo ý muốn...
