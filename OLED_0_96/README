@@ -1,0 +1,13 @@
+## Mô tả
+
+Tên: Sử dụng màn hình OLED 0.96 I2C
+Cần Có: 
+- Kit vi điều khiển bất kỳ có giao diện I2C (Trong video đang sử dụng Arduino)
+- Màn hình OLED 0.96 Inch giao tiếp I2C
+- Cảm biến siêu âm
+- Cài đặt thư viện (Mình sử dụng Arduino IDE): Adafruit SSD1306
+(Trong IDE -> Tools -> Manage Libraries -> Tìm tên thư viện -> install)
+
+## Thêm
+Trên 1 số kit nếu không tải dược thư viện thì có thể dựa vào data sheet để giao tiếp với OLED qua I2C (video cũng 
+có nêu ngắn gọn cách điều khiển contrast của OLED bằng cách này)
